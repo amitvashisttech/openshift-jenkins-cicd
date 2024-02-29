@@ -13,7 +13,7 @@ public class TestController {
 
 	@GetMapping("/openshift")
 	public String pong() {
-		return "Hello From Openshift 4.14.";
+		return "Hello From Openshift 4.14.!";
 	}
 
 }
