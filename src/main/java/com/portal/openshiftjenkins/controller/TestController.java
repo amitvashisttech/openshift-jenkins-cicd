@@ -8,6 +8,12 @@ public class TestController {
 
 	@GetMapping("/hello")
 	public String ping() {
-		return "Welcome to Openshift Jenkins Pipeline Integraion.";
+		return "Welcome to Openshift Jenkins Pipeline Integration.!!";
 	}
+
+	@GetMapping("/openshift")
+	public String ping() {
+		return "Hello From Openshift 4.14.";
+	}
+
 }
